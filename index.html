@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="resources/css/citazioni_css.css">
+	<title>
+		le citazioni
+	</title>
+</head>
+<body>
+	<div id="menu">
+		<div id="seleziona_filtri">
+			<button id="medioevo" onclick="medioevo()" class="buttons_selezione">
+				medioevo
+			</button>	
+			<button id="novecento" onclick="novecento()" class="buttons_selezione">
+				novecento
+			</button>
+			<button id="terzo_millennio" onclick="terzo_millennio()"  class="buttons_selezione"> 
+				terzo millennio
+			</button>	
+		</div>
+		<div id="collegamenti">
+			<a id="about_us_link" href="https://lab24.ilsole24ore.com/coronavirus/"  target="_blank" title="About us">
+				<img id="about_us" src="resources/images/aggiungi.svg" width="30px">
+			</a>
+			<a id="aggiungi_link" href="https://lab24.ilsole24ore.com/coronavirus/"  target="_blank" title="Mandaci una citazione">
+				<img id="immagine_2" src="resources/images/aggiungi.svg" width="30px">
+			</a>
+			<a id="instagram_link" href="https://lab24.ilsole24ore.com/coronavirus/"  target="_blank" title="instagram">
+				<img id="immagine_1" src="resources/images/instagram.svg" width="30px">
+			</a>
+
+
+			
+		</div>
+	</div>
+	<div class="container-1">
+		<div class="corpo">
+			
+			<p id="citazione">Tutto ciò che devi fare è toccare lo schermo. Enjoy</p>
+			<div id="container-persona">
+				<p id="persona"></p>
+			</div>
+		</div>
+		<div class="tocco">
+			<button id="mega_button" onclick="update()">
+				ciao
+			</button>
+		</div>
+		<script src="resources/js/citazioni_backend.js"></script>
+	</div>
+</body>
+</html>
